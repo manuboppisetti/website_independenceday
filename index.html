@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Independence Day Celebration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="ashokachakra.png">
+    <header>
+        <h1>Independence Day Celebration</h1>
+        <nav>
+            <ul>
+                <li><a href="#" data-target="home" class="active">Home</a></li>
+                <li><a href="#" data-target="freedom-fighters">Freedom Fighters</a></li>
+                <li><a href="#" data-target="prime-minister">Prime Minister</a></li>
+                <li><a href="#" data-target="cultural-events">Cultural Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="home" class="window active">
+            <div class="home-content">
+                <img src="flag2.png" alt="Independence Day Flag" class="flag-image">
+                <h2>Happy Independence Day!</h2>
+                <p>Celebrate the spirit of freedom and unity as we honor our nation's heroes and rich cultural heritage.</p>
+            </div>
+        </div>
+        
+        <div id="freedom-fighters" class="window">
+            <h2>Top Freedom Fighters</h2>
+            <div class="fighter">
+                <img src="gandhi.png" alt="Mahatma Gandhi">
+                <div class="info">
+                    <h3>Mahatma Gandhi</h3>
+                    <p>Mahatma Gandhi led India’s non-violent independence movement against British rule. His principles of non-violence and civil disobedience inspired global movements for civil rights.</p>
+                </div>
+            </div>
+            <div class="fighter">
+                <img src="nehru.png" alt="Jawaharlal Nehru">
+                <div class="info">
+                    <h3>Jawaharlal Nehru</h3>
+                    <p>Jawaharlal Nehru was India’s first Prime Minister. His vision for a modern and progressive India laid the foundation for India’s industrial and technological growth.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="prime-minister" class="window">
+            <h2>Narendra Damodardas Modi</h2>
+            <img src="modi.png" alt="Current Prime Minister" class="pm-image">
+            <p>Our current Prime Minister is <span id="pm-name">Narendra Damodardas Modi</span>. He has been leading the country with a vision of progress and development, focusing on economic growth, digital innovation, and social justice.<br>Narendra Damodardas Modi is the current Prime Minister of India, serving since May 2014. Born on September 17, 1950, in Vadnagar, Gujarat, he was previously the Chief Minister of Gujarat from 2001 to 2014. Modi is a member of the Bharatiya Janata Party (BJP) and the Rashtriya Swayamsevak Sangh (RSS). His tenure as Prime Minister has focused on economic reforms, digital infrastructure, and social initiatives like Swachh Bharat (Clean India). He is known for his strong leadership style and efforts to boost India's global standing. Modi was re-elected for a second term in 2019, emphasizing development and national security.</p>
+        </div>
+
+        <div id="cultural-events" class="window">
+            <h2>Cultural Events</h2>
+            <p>Independence Day is celebrated with a range of cultural events including flag hoisting ceremonies, patriotic performances, and traditional dances. Local communities host parades and educational programs to honor the nation's history.</p>
+            
+            <div id="events-list" class="show-events">
+                <ul>
+                    <li><img src="flaghoist.jpg" alt="flag Hoisting" class="flag-image"> Flag Hoisting Ceremony at the Red Fort</li>
+                    
+                    
+                    <li><img src="bharath-parv-redfort.jpg" alt="dance performances" class="flag-image">Patriotic Songs and Dance Performances.</li>
+                    <li><img src="parade.jpg" alt="parade" class="flag-image">Local Parades and Community Gatherings.</li>
+                    <button id="show-events">Show More Events</button>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Independence Day Celebration. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
